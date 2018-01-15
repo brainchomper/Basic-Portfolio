@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="./assets/css/style.css">
 	<title>Kevin Smith's Portfolio</title>
 </head>
-<body>
+<body onload="myFunction()">
 	<header>
 		<div class="wrapper1">
 		<a href="index.html"><img src="./assets/images/logo.png" alt="Kevin Smith"></a>
@@ -53,9 +53,15 @@
 	</aside>
 </div>
 </main>
-	<footer>
-		<p>&copy; 2018 Kevin Smith</p>
-	</footer>
+<footer>
+	<p>&copy; <span id="demo"></span> Kevin Smith</p><script>
+		function myFunction() {
+				var d = new Date();
+				var n = d.getFullYear();
+				document.getElementById("demo").innerHTML = n;
+		}
+		</script>
+</footer>
 	
 </body>
 </html>
