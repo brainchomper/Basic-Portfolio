@@ -1,7 +1,13 @@
+html {
+	font-family: 'Roboto', sans-serif;
+}
+p {
+	font-size: 16px;
+}
 h1 {
 	color: #4aaaa5;
 	font-family: 'Roboto', sans-serif;
-	font-size: 30px;
+	font-size: 25px;
 	padding: 10px;
 }
 h3 {
@@ -62,7 +68,7 @@ main {
 	height: 50px;
 }
 .content {
-	width: 610px;
+	width: 606px;
 	background-color: white;
 	padding: 20px;
 	float: left;
@@ -74,7 +80,7 @@ main {
 }
 .sidebar {
 	background-color: white;
-	width: 230px;
+	width: 226px;
 	padding: 20px;
 	float: right;
 	align-content: center;
